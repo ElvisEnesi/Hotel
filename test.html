@@ -1,0 +1,66 @@
+
+.dashboard_container #main #wishlist {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.dashboard_container #main #wishlist .wish_container .wish_container_card {
+    width: 24%;
+    background-color: #F5E6C8;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+.dashboard_container #main #wishlist .wish_container .wish_container_card .wishlist button {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 20px;
+    background-color: #0F172A;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+.dashboard_container #main #wishlist .wish_container .wish_container_card .wishlist button:hover {
+    background-color: rgb(136, 120, 120);
+}
+.dashboard_container #main #wishlist .wish_container .wish_container_card img {
+    width: 50%;
+    height: 30vh;
+    cursor: pointer;
+}
+.dashboard_container #main #wishlist .wish_container .wish_container_card .room_details {
+    width: 50%;
+    padding-left: 10px;
+    background-color: transparent;
+}
+.dashboard_container #main #wishlist .wish_container .wish_container_card .room_details h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.dashboard_container #main #wishlist .wish_container .wish_container_card .room_details p {
+    font-size: 16px;
+}
+.dashboard_container #main #wishlist .wish_container .wish_container_card .room_details span.room_price {
+    color: red;
+}
+.dashboard_container #main #wishlist .wish_container .wish_container_card .room_details ol {
+    background-color: transparent;
+    padding: 15px;
+}
+.dashboard_container #main #wishlist .wish_container .wish_container_card .room_details ol li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+    font-size: 15px;
+}

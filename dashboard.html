@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="dashboard_container">
+        <aside id="aside">
+            <div class="first_element">
+                <div class="icon">
+                    <ion-icon name="clipboard-outline"></ion-icon>
+                </div>
+                <div class="title">Dashboard</div>
+            </div>
+            <div class="major_links">
+                <div class="link_folder">
+                    <div class="icon">
+                        <ion-icon name="file-tray-full-outline"></ion-icon>
+                    </div>
+                    <a href="dashboard.html#overview">Overview</a>
+                </div>
+                <div class="link_folder">
+                    <div class="icon">
+                        <ion-icon name="heart-outline"></ion-icon>
+                    </div>
+                    <a href="dashboard.html#wishlist">Wishlist</a>
+                </div>
+                <div class="link_folder">
+                    <div class="icon">
+                        <ion-icon name="bookmark-outline"></ion-icon>
+                    </div>
+                    <a href="dashboard.html#bookings">Bookings</a>
+                </div>
+                <div class="link_folder">
+                    <div class="icon">
+                        <ion-icon name="duplicate-outline"></ion-icon>
+                    </div>
+                    <a href="dashboard.html#rooms">Rooms categories</a>
+                </div>
+                <div class="link_folder">
+                    <div class="icon">
+                        <ion-icon name="bed-outline"></ion-icon>
+                    </div>
+                    <a href="dashboard.html#available">Rooms</a>
+                </div>
+                <div class="link_folder">
+                    <div class="icon">
+                        <ion-icon name="duplicate-outline"></ion-icon>
+                    </div>
+                    <a href="dashboard.html#meals_categories">Meals categories</a>
+                </div>
+                <div class="link_folder">
+                    <div class="icon">
+                        <ion-icon name="fast-food-outline"></ion-icon>
+                    </div>
+                    <a href="dashboard.html#meals">Meals</a>
+                </div>
+                <div class="link_folder">
+                    <div class="icon">
+                        <ion-icon name="newspaper-outline"></ion-icon>
+                    </div>
+                    <a href="dashboard.html#orders">Orders</a>
+                </div>
+                <div class="link_folder">
+                    <div class="icon">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+                    </div>
+                    <a href="dashboard.html#security">Security reviews</a>
+                </div>
+                <div class="link_folder">
+                    <div class="icon">
+                        <ion-icon name="book-outline"></ion-icon>
+                    </div>
+                    <a href="dashboard.html#reviews">Complaints & Reviews</a>
+                </div>
+            </div>
+            <div class="minor_links">
+                <div class="link_folder">
+                    <div class="icon">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </div>
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="link_folder">
+                    <div class="icon">
+                        <ion-icon name="settings-outline"></ion-icon>
+                    </div>
+                    <a href="dashboard.html#settings">Settings</a>
+                </div>
+                <div class="link_folder">
+                    <div class="icon">
+                        <ion-icon name="log-out-outline"></ion-icon>
+                    </div>
+                    <a href="logout.html">Log out</a>
+                </div>
+            </div>
+        </aside>
+        <main id="main">
+            <div id="overview">
+                <div class="head">
+                    <div class="icon">
+                        <div class="openSide"><ion-icon name="menu-outline"></ion-icon></div>
+                        <div class="closeSide"><ion-icon name="close-outline"></ion-icon></div>
+                    </div>
+                    <div class="name">Elvis</div>
+                    <div class="search_form">
+                        <form action="" method="get">
+                            <input type="search" name="dashboard_search" placeholder="Search" required>
+                            <button type="submit"><ion-icon name="search-outline"></ion-icon></button>
+                        </form>
+                    </div>
+                    <div class="picture">
+                        <img src="./images/G_2skTNXIAIRxbf.jpg">
+                    </div>
+                </div>
+                <div class="info">
+                    <div class="info_container">
+                        <div class="sticker"><ion-icon name="card-outline"></ion-icon></div>
+                        <div class="info_details">
+                            <div class="total">$4550</div>
+                            <div class="desc">Yearly income</div>
+                        </div>
+                    </div>
+                    <div class="info_container">
+                        <div class="sticker"><ion-icon name="cash-outline"></ion-icon></div>
+                        <div class="info_details">
+                            <div class="total">$1500</div>
+                            <div class="desc">Monthly income</div>
+                        </div>
+                    </div>
+                    <div class="info_container">
+                        <div class="sticker"><ion-icon name="bed-outline"></ion-icon></div>
+                        <div class="info_details">
+                            <div class="total">45</div>
+                            <div class="desc">Rooms available</div>
+                        </div>
+                    </div>
+                    <div class="info_container">
+                        <div class="sticker"><ion-icon name="fast-food-outline"></ion-icon></div>
+                        <div class="info_details">
+                            <div class="total">15</div>
+                            <div class="desc">Meals available</div>
+                        </div>
+                    </div>
+                    <div class="info_container">
+                        <div class="sticker"><ion-icon name="newspaper-outline"></ion-icon></div>
+                        <div class="info_details">
+                            <div class="total">35</div>
+                            <div class="desc">Pending orders</div>
+                        </div>
+                    </div>
+                    <div class="info_container">
+                        <div class="sticker"><ion-icon name="hardware-chip-outline"></ion-icon></div>
+                        <div class="info_details">
+                            <div class="total">35</div>
+                            <div class="desc">New security threats</div>
+                        </div>
+                    </div>
+                    <div class="info_container">
+                        <div class="sticker"><ion-icon name="book-outline"></ion-icon></div>
+                        <div class="info_details">
+                            <div class="total">35</div>
+                            <div class="desc">New reviews</div>
+                        </div>
+                    </div>
+                </div>
+                <h3>Recent Orders</h3>
+                <table>
+                    <tr>
+                        <th>Customer</th>
+                        <th>Order</th>
+                        <th>Phone</th>
+                        <th>Price</th>
+                        <th>Time created</th>
+                    </tr>
+                    <tr>
+                        <td>Elvis Enesi Jatto</td>
+                        <td>Rice & Chicken</td>
+                        <td>09011412439</td>
+                        <td>$55</td>
+                        <td>3/24/2026</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="wishlist">
+                <h3>WishList</h3>
+                <div class="wish_container">
+                    <div class="wish_container_card">
+                        <img src="./images/23555986-bed-6830011_1920.jpg" onclick="window.location.href='single_food.html'">
+                        <div class="wish_container_details">
+                            <h3>Fried Rice</h3>
+                            <span class="wish_container_price">$40</span>
+                            <ol>
+                                <li>2 chicken wings</li>
+                                <li>Fruit salad</li>
+                                <li>1 bottle water</li>
+                            </ol>
+                        </div>
+                        <div class="wishlist">
+                            <form action="" method="post">
+                                <button type="submit" name="submit"><ion-icon name="heart-outline"></ion-icon></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="wish_container_card">
+                        <img src="./images/23555986-bed-6830011_1920.jpg" onclick="window.location.href='single_food.html'">
+                        <div class="wish_container_details">
+                            <h3>Fried Rice</h3>
+                            <span class="wish_container_price">$40</span>
+                            <ol>
+                                <li>2 chicken wings</li>
+                                <li>Fruit salad</li>
+                                <li>1 bottle water</li>
+                            </ol>
+                        </div>
+                        <div class="wishlist">
+                            <form action="" method="post">
+                                <button type="submit" name="submit"><ion-icon name="heart-outline"></ion-icon></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="table_form" id="bookings">
+                <h3>Bookings</h3>
+                <table>
+                    <tr>
+                        <th>head</th>
+                        <th>head</th>
+                        <th>head</th>
+                        <th>head</th>
+                        <th>head</th>
+                    </tr>
+                    <tr>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="table_form" id="rooms">
+                <h3>Rooms Categories</h3>
+                <div class="add_more">Do you want to add more?? <div class="icon" onclick="window.location.href='add_room_category.html'">+</div></div>
+                <table>
+                    <tr>
+                        <th>Title</th>
+                        <th>Date created</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                    <tr>
+                        <td>data</td>
+                        <td>data</td>
+                        <td><a href="edit_room_category.html">edit</a></td>
+                        <td><a href="delete_room_category.html" class="danger">delete</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="table_form" id="available">
+                <h3>Rooms</h3>
+                <div class="add_more">Do you want to add more?? <div class="icon" onclick="window.location.href='add_room.html'">+</div></div>
+                <table>
+                    <tr>
+                        <th>Title</th>
+                        <th>Price</th>
+                        <th>Category</th>
+                        <th>head</th>
+                        <th>head</th>
+                    </tr>
+                    <tr>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                        <td><a href="edit_room.html">edit</a></td>
+                        <td><a href="delete_room.html" class="danger">delete</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="table_form" id="meals_categories">
+                <h3>Meals Categories</h3>
+                <div class="add_more">Do you want to add more?? <div class="icon" onclick="window.location.href='add_meal_category.html'">+</div></div>
+                <table>
+                    <tr>
+                        <th>Title</th>
+                        <th>Date created</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                    <tr>
+                        <td>data</td>
+                        <td>data</td>
+                        <td><a href="edit_meal_category.html">edit</a></td>
+                        <td><a href="delete_meal_category.html" class="danger">delete</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="table_form" id="meals">
+                <h3>Meals</h3>
+                <div class="add_more">Do you want to add more?? <div class="icon" onclick="window.location.href='add_meal.html'">+</div></div>
+                <table>
+                    <tr>
+                        <th>Title</th>
+                        <th>Price</th>
+                        <th>Category</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                    <tr>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                        <td><a href="edit_meal.html">edit</a></td>
+                        <td><a href="delete_meal.html" class="danger">delete</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="table_form" id="orders">
+                <h3>Orders</h3>
+                <table>
+                    <tr>
+                        <th>head</th>
+                        <th>head</th>
+                        <th>head</th>
+                        <th>head</th>
+                        <th>head</th>
+                    </tr>
+                    <tr>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                        <td><a href="">edit</a></td>
+                        <td><a href="" class="danger">delete</a></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="table_form" id="security">
+                <h3>Security reviews</h3>
+                <table>
+                    <tr>
+                        <th>Title</th>
+                        <th>IP address</th>
+                        <th>Date created</th>
+                    </tr>
+                    <tr>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="comments" id="reviews">
+                <h3>Complaints & Reviews</h3>
+                <div class="testimonial_card">
+                    <p>
+                        "My stay at Tafari Hotel was absolutely wonderful! The staff were incredibly attentive and the room was luxurious and comfortable. 
+                        I especially enjoyed the spa treatments and the delicious meals at the restaurant. I can't wait to come back!"
+                    </p>
+                    <div class="testimonial_details">
+                        <h3>Sarah M.</h3>
+                        <span class="date">13/03/2026</span>
+                    </div>
+                </div>
+            </div>
+            <div class="settings" id="settings">
+                <h2>Settings</h2>
+                <div class="form">
+                    <form action="" method="post">
+                        <h3>Edit bio</h3>
+                        <input type="text" name="fullname" placeholder="Full name">
+                        <input type="text" name="username" placeholder="User name">
+                        <input type="email" name="email" placeholder="Email">
+                        <button type="submit" name="edit_bio">Submit</button>
+                    </form>
+                    <form action="" method="post">
+                        <h3>Change password</h3>
+                        <input type="password" name="current" placeholder="Current password">
+                        <input type="password" name="create" placeholder="Create password">
+                        <input type="password" name="confirm" placeholder="Confirm password">
+                        <button type="submit" name="edit_key">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </section>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

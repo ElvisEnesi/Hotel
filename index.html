@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel system</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--header-->
+    <section class="header">
+        <div class="logo" onclick="window.location.href='index.html'">Tafari Hotel</div>
+        <!--for media query-->
+        <div class="icon">
+            <div class="openNav"><ion-icon name="menu-outline"></ion-icon></div>
+            <div class="closeNav"><ion-icon name="close-outline"></ion-icon></div>
+        </div>
+        <div class="nav">
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Home 
+                    <div class="drop_icon_open"><ion-icon name="chevron-down-outline"></ion-icon></div>
+                </button>   
+                <div class="dropdown_links">
+                    <a href="">Overview of the hotel</a>
+                    <a href="index.html#features">Featured services</a>
+                    <a href="index.html#promotions">Promotions</a>
+                    <a href="index.html#testimonials">Testimonials</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Rooms & Suites
+                    <div class="drop_icon_open"><ion-icon name="chevron-down-outline"></ion-icon></div>
+                </button>
+                <div class="dropdown_links">
+                    <a href="rooms.html#deluxe">Deluxe Rooms</a>
+                    <a href="rooms.html#executive">Executive Rooms</a>
+                    <a href="rooms.html#family">Family Suites</a>
+                    <a href="rooms.html#presidential">Presidential Suites</a>
+                    <a href="rooms.html#amenity">Room Amenities</a>
+                    <a href="rooms.html#gallery">Room Gallery</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Dining
+                    <div class="drop_icon_open"><ion-icon name="chevron-down-outline"></ion-icon></div>
+                </button>
+                <div class="dropdown_links">
+                    <a href="dining.html">Restaurant</a>
+                    <a href="dining.html#bar">Bar & Lounge</a>
+                    <a href="dining.html#private">Private Dining</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Hotel Services
+                    <div class="drop_icon_open"><ion-icon name="chevron-down-outline"></ion-icon></div>
+                </button>
+                <div class="dropdown_links">
+                    <a href="service.html#Laundry">Laundry & Dry Cleaning</a>
+                    <a href="service.html#Service">Room Service</a>
+                    <a href="service.html#Pickup">Package Pickup</a>
+                    <a href="service.html#Planning">Event Planning</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button  class="dropbtn">
+                    Spa & Wellness
+                    <div class="drop_icon_open"><ion-icon name="chevron-down-outline"></ion-icon></div>
+                </button>
+                <div class="dropdown_links">
+                    <a href="spa.html#spa">Spa Treatments</a>
+                    <a href="spa.html#Massage">Massage Therapy</a>
+                    <a href="spa.html#Steam">Sauna & Steam</a>
+                    <a href="spa.html#salon">Beauty Salon</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button onclick="window.location.href='signin.html'">Sign in</button>
+            </div>
+            <div class="dropdown">
+                <a href="dashboard.html"><img src="./images/G_2skTNXIAIRxbf.jpg"></a>
+            </div>
+        </div>
+    </section>
+    <!--hero-->
+    <section class="hero" id="top">
+        <div class="hero_content">
+            <h1>Welcome to Tafari Hotel</h1>
+            <p>Experience luxury and comfort like never before</p>
+            <button>Book Now</button>
+        </div>
+    </section>
+    <!--features-->
+    <h1 id="features">Our features</h1>
+    <section class="features">
+        <div class="feature">
+            <h3>Luxury Rooms & Suites</h3>
+            <p>
+                Experience comfort and elegance in our carefully designed rooms and suites, featuring modern amenities, premium bedding, and 
+                stunning views for a relaxing stay.
+            </p>
+        </div>
+        <div class="feature">
+            <h3>Fine Dining Restaurant</h3>
+            <p>
+                Enjoy exquisite meals prepared by our expert chefs. From local delicacies to international cuisine, our restaurant delivers a 
+                memorable dining experience.
+            </p>
+        </div>
+        <div class="feature">
+            <h3>Spa & Wellness</h3>
+            <p>
+                Rejuvenate your body and mind with our range of therapeutic treatments and wellness services, designed to provide a truly 
+                indulgent experience.
+            </p>
+        </div>
+        <div class="feature">
+            <h3>Sports & Fitness Center</h3>
+            <p>
+                Stay active and healthy in our state-of-the-art sports and fitness center, equipped with modern exercise machines and free 
+                weights.
+            </p>
+        </div>
+    </section>
+    <!--promotions-->
+    <h1 id="promotions">Exclusive Offers & Promotions</h1>
+    <p class="desc">
+        Take advantage of our limited-time offers and enjoy exceptional luxury, comfort, and unforgettable experiences at our hotel. Whether 
+        you're planning a relaxing getaway, a romantic escape, or a business stay, our exclusive packages are designed to give you more value 
+        for your visit.
+    </p>
+    <img id="modal">
+    <span id="close_modal">&times;</span>
+    <section class="promotions">
+        <div class="promo">
+            <div class="promo_left">
+                <img src="./images/each.webp" id="create_modal">
+            </div>
+            <div class="promo_right">
+                <h2>Weekend Escape Package</h2>
+                <p>
+                    Enjoy a relaxing weekend getaway with our special weekend package. Stay in our luxurious rooms, enjoy complimentary 
+                    breakfast, and take advantage of our wellness facilities for the perfect short escape.
+                </p>
+                <ul>
+                    <li>2 Nights Luxury Accommodation</li>
+                    <li>Complimentary Breakfast</li>
+                    <li>Free Access to Gym & Swimming Pool</li>
+                </ul>
+                <button>Book This Offer</button>
+            </div>
+        </div>
+        <div class="promo">
+            <div class="promo_left">
+                <img src="./images/couples.jpg"  id="create_modal">
+            </div>
+            <div class="promo_right">
+                <h2>Romantic Getaway Package</h2>
+                <p>
+                    Celebrate love with a romantic experience designed for couples. Enjoy a beautifully prepared room, 
+                    candlelight dinner, and spa relaxation for a memorable stay.
+                </p>
+                <ul>
+                    <li>Deluxe Room Decoration</li>
+                    <li>Romantic Candlelight Dinner</li>
+                    <li>Couples Spa Treatment</li>
+                </ul>
+                <button>Reserve Now</button>
+            </div>
+        </div>
+        <div class="promo">
+            <div class="promo_left">
+                <img src="./images/manuelajaeger-hotel-1749602_1920.jpg"  id="create_modal">
+            </div>
+            <div class="promo_right">
+                <h2>Business Traveler Package</h2>
+                <p>
+                    Designed for business professionals who value comfort and productivity. Enjoy premium accommodation, high-speed internet, 
+                    and access to our conference and workspace facilities.
+                </p>
+                <ul>
+                    <li>Luxury Business Room</li>
+                    <li>Free High-Speed Wi-Fi</li>
+                    <li>Access to Conference Lounge</li>
+                </ul>
+                <button>Take This Offer</button>
+            </div>
+        </div>
+    </section>
+    <!--testimonials-->
+    <h1 id="testimonials">What Our Guests Say</h1>
+    <p class="desc">
+        Our guests' experiences speak for the quality and service we provide. Here are some of the wonderful things our visitors have shared 
+        about their stay with us.
+    </p>
+    <section class="testimonial">
+        <div class="comments">
+            <div class="testimonial_card comment_cards">
+                <p>
+                    "My stay at Tafari Hotel was absolutely wonderful! The staff were incredibly attentive and the room was luxurious and comfortable. 
+                    I especially enjoyed the spa treatments and the delicious meals at the restaurant. I can't wait to come back!"
+                </p>
+                <div class="testimonial_details">
+                    <h3>Sarah M.</h3>
+                    <span class="date">13/03/2026</span>
+                </div>
+            </div>
+            <div class="testimonial_card comment_cards">
+                <p>
+                    "Tafari Hotel exceeded all my expectations. The amenities were top-notch, and the service was impeccable. The weekend escape package 
+                    was a fantastic deal, and I felt truly pampered during my stay. Highly recommend this hotel for anyone looking for a luxurious getaway."
+                </p>
+                <div class="testimonial_details">
+                    <h3>John D.</h3>
+                    <span class="date">13/03/2026</span>
+                </div>
+            </div>
+            <div class="testimonial_card comment_cards">
+                <p>
+                    "I had an amazing experience at Tafari Hotel. The romantic getaway package was perfect for our anniversary celebration. The room was beautifully 
+                    decorated, and the candlelight dinner was unforgettable. The staff went above and beyond to make our stay special."
+                </p>
+                <div class="testimonial_details">
+                    <h3>Emily R.</h3>
+                    <span class="date">13/03/2026</span>
+                </div>
+            </div>
+        </div>
+        <div class="review_form comment_form">
+            <h3>Leave a Review</h3>
+            <form>
+                <input type="email" name="testimonial_email" placeholder="Your email address" required>
+                <textarea placeholder="Share your experience at Tafari Hotel..."></textarea>
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+    </section>
+    <section class="newsletter">
+        <span class="close_newsletter">&times;</span>
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>
+            Stay updated with the latest news, exclusive offers, and special events at Tafari Hotel. Subscribe to our newsletter and never 
+            miss out on the luxury experience we offer.
+        </p>
+        <form>
+            <input type="email" name="newsletter_email" placeholder="Enter your email address" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+    <!--to top-->
+    <div class="to_top_button"><a href="index.html#top"><ion-icon name="arrow-up-outline"></ion-icon></a></div>
+    <!--footer-->
+    <section class="footer">
+        <div class="column">
+            <h3>About Us</h3>
+            <a href="about.html">Our Story</a>
+            <a href="about.html#team">Management Team</a>
+            <!-- <a href="">Hotel Facilities</a> -->
+            <a href="about.html#award">Awards</a>
+            <!-- <a href="">Sustainability</a> -->
+            <a href="about.html#contact">Contact Us</a>
+        </div>
+        <div class="column">
+            <h3>Polices</h3>
+            <a href="policy.html#booking">Booking Policy</a>
+            <a href="policy.html#refund">Refund policy</a>
+            <a href="policy.html#t&c">T&C</a>
+        </div>
+        <!-- <div class="column">
+            <h3>Gallery</h3>
+            <a href="rooms.html#gallery">Rooms</a>
+            <a href="">Restaurant</a>
+            <a href="">Spa</a>
+            <a href="">Gym</a>
+            <a href="">Pool</a>
+            <a href="">Events</a>
+        </div> -->
+        <div class="column">
+            <h3>Sports & Recreation</h3>
+            <a href="sports.html#gym">Gym / Fitness Center</a>
+            <a href="sports.html#pool">Swimming Pool</a>
+            <a href="sports.html#tennis">Tennis Court</a>
+            <a href="sports.html#games">Indoor Games</a>
+        </div>
+        <div class="column">
+            <h3>Events & Conferences</h3>
+            <a href="event.html#Conference">Conference Rooms</a>
+            <a href="event.html#Wedding">Wedding Hall</a>
+            <a href="event.html#Corporate">Corporate Events</a>
+            <a href="event.html#book_event">Book an Event</a>
+        </div>
+    </section>
+    <div class="copywright">
+        Est by elvis web world, 2021 - 2026
+    </div>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel system</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="promotions" id="top">
+        <div class="promo scroll_small" id="gym">
+            <div class="promo_left">
+                <img src="./images/each.webp" id="create_modal">
+            </div>
+            <div class="promo_right">
+                <h2>Conference Rooms</h2>
+                <p>
+                    Our modern conference rooms are equipped with the latest technology and amenities to ensure your business meetings are successful. With flexible seating arrangements and high-speed internet, we provide the perfect environment for professional gatherings.
+                </p>
+            </div>
+        </div>
+        <div class="promo scroll_small" id="pool">
+            <div class="promo_left">
+                <img src="./images/couples.jpg"  id="create_modal">
+            </div>
+            <div class="promo_right">
+                <h2>Wedding Hall</h2>
+                <p>
+                    Your wedding day is a collection of once-in-a-lifetime moments, and our Wedding Hall provides the breathtaking stage they deserve. Designed with a perfect balance of timeless grandeur and modern sophistication, our venue serves as a blank canvas for your unique love story. From the soaring ceilings and sparkling chandeliers to the exquisite architectural details, every inch of the space is crafted to create an atmosphere of romance, elegance, and pure magic.
+                </p>
+            </div>
+        </div>
+        <div class="promo scroll_small" id="tennis">
+            <div class="promo_left">
+                <img src="./images/manuelajaeger-hotel-1749602_1920.jpg"  id="create_modal">
+            </div>
+            <div class="promo_right">
+                <h2>Corporate Events</h2>
+                <p>
+                    Success in the modern corporate landscape requires seamless connectivity. Our event halls are fully integrated with high-speed fiber-optic Wi-Fi and the latest audio-visual technology, including ultra-high-definition projection systems, professional-grade sound engineering, and intuitive lighting controls. Our layouts are entirely flexible, easily transitioning from a formal theater-style arrangement for keynote speeches to collaborative "breakout" clusters designed for intensive workshops and team-building sessions.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial" id="book_event">
+        <div class="comments">
+            <div class="testimonial_card comment_cards">
+                <p>
+                    "I had an amazing experience at Tafari Hotel. The romantic getaway package was perfect for our anniversary celebration. The room was beautifully 
+                    decorated, and the candlelight dinner was unforgettable. The staff went above and beyond to make our stay special."
+                </p>
+                <div class="testimonial_details">
+                    <h3>Management</h3>
+                    <span class="date">13/03/2026</span>
+                </div>
+            </div>
+        </div>
+        <div class="review_form comment_form">
+            <h3>Book an event</h3>
+            <form>
+                <input type="email" name="testimonial_email" placeholder="Your email address" required>
+                <select name="event">
+                    <option value="">Conference Events</option>
+                    <option value="">Weddings</option>
+                    <option value="">Corporate Events</option>
+                </select>
+                <input type="date" name="event_start_date">
+                <input type="date" name="event_end_date">
+                <button type="submit">Submit Order</button>
+            </form>
+        </div>
+    </section>
+    <!--to top-->
+    <div class="to_top_button"><a href="event.html#top"><ion-icon name="arrow-up-outline"></ion-icon></a></div>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
