@@ -1155,6 +1155,7 @@ p.desc.show_p{
 .dashboard_container #main #overview .head .icon{
     display: none;
     font-size: 40px;
+    cursor: pointer;
 }
 .dashboard_container #main #overview .head .name {
     font-size: 25px;
@@ -1224,10 +1225,35 @@ p.desc.show_p{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(136, 120, 120);
+    background-color: #EEF2FF;
+    color: #4338CA;
     margin-right: 30px;
     border-radius: 10px;
     font-size: 30px;
+}
+.dashboard_container #main #overview .info .info_container .sticker.monthly {
+    background-color: #ECFDF5;
+    color: #059669;
+}
+.dashboard_container #main #overview .info .info_container .sticker.bed {
+    background-color: #FFF7ED;
+    color: #EA580C;
+}
+.dashboard_container #main #overview .info .info_container .sticker.meal {
+    background-color: #FEF2F2;
+    color: #DC2626;
+}
+.dashboard_container #main #overview .info .info_container .sticker.orders {
+    background-color: #F5F3FF;
+    color: #7C3AED;
+}
+.dashboard_container #main #overview .info .info_container .sticker.threats {
+    background-color: #F0FDF4;
+    color: #16A34A;
+}
+.dashboard_container #main #overview .info .info_container .sticker.reviews {
+    background-color: #EFF6FF;
+    color: #2563ED;
 }
 .dashboard_container #main #overview .info .info_container .info_details {
     display: flex;
@@ -1292,7 +1318,7 @@ p.desc.show_p{
     position: absolute;
     bottom: 5px;
     right: 5px;
-    font-size: 20px;
+    font-size: 30px;
     background-color: #0F172A;
     color: white;
     padding: 10px;
@@ -1530,7 +1556,7 @@ section.show {
         flex-direction: column;
         position: fixed;
         right: -230px;
-        top: 8%;
+        top: 5%;
         width: 230px;
         background-color: #0F172A;
         height: 100vh;
@@ -1632,7 +1658,6 @@ section.show {
     }
     .dashboard_container #aside {
         width: 300px;
-        margin-right: 0;
         left: -300px;
         top: 0;
         position: fixed;
@@ -1649,7 +1674,6 @@ section.show {
     .dashboard_container #main #overview .head .icon {
         color: #C8A96A;
         font-size: 50px;
-        z-index: 99999;
         display: flex;
         cursor: pointer;
         margin-right: 10px;

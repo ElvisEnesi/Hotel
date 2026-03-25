@@ -40,9 +40,9 @@ window.onclick = function(event) {
 
 // media header query
 // declare variables
-let nav = document.getElementsByClassName("nav")[0];
-let open_menu = document.getElementsByClassName("openNav")[0];
-let close_menu = document.getElementsByClassName("closeNav")[0];
+let nav = document.querySelector(".nav");
+let open_menu = document.querySelector(".openNav");
+let close_menu = document.querySelector(".closeNav");
 // open menu function
 open_menu.addEventListener("click", () => {
     nav.style.right = "0px";
@@ -59,21 +59,21 @@ close_menu.addEventListener("click", () => {
 
 // dashboard side nav
 // declare variables
-let side_nav = document.getElementById("aside")[0];
-let open_side = document.getElementsByClassName("openSide")[0];
-let close_side = document.getElementsByClassName("closeSide")[0];
+var side_nav_bar = document.querySelector("#aside");
+var open_side_nav = document.querySelector(".openSide");
+var close_side_nav = document.querySelector(".closeSide");
 // open side nav function
-open_side.addEventListener("click", () => {
-    side_nav.style.left = "0px";
-    open_side.style.display = "none";
-    close_side.style.display = "block";
-});
+function openSide() {
+  side_nav_bar.style.left = "0px";
+  open_side_nav.style.display = "none";
+  close_side_nav.style.display = "block";
+}
 // close side nav function
-close_side.addEventListener("click", () => {
-    side_nav.style.left = "-300px";
-    open_side.style.display = "block";
-    close_side.style.display = "none";
-});
+function closeSide() {
+  side_nav_bar.style.left = "-300px";
+  open_side_nav.style.display = "block";
+  close_side_nav.style.display = "none";
+}
 
 // modal function!!!!!!!!!!
 // Select all images and the modal elements
